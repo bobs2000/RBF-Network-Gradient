@@ -6,7 +6,7 @@
 ### A Modified RBF Network Implementation 
 
 -----
-RBF networks are unique networks that differ from standard MLP models. RBFs work from the idea that each neuron will have a central basis or 'prototype' data. Inputs that are closer to the prototype will result in higher activation of the neuron. Training occurs when the prototype is modified by adjusting weights through an optimization algorithm. 
+RBF networks are unique networks that differ from standard MLP models. RBFs work from the idea that each neuron will have a central basis or 'prototype' data. Inputs that are closer to the prototype will result in higher activation of the neuron. Training occurs when the prototype is modified by adjusting weights through an optimization algorithm to match inputs. 
 
 There are a handful of implementations of RBF. This is my attempt at implmenting a unique RBF 'like' network. The optimization algorithm I chose is gradient descent. 
 
