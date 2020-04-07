@@ -1,4 +1,5 @@
-# RBF-Network-Gradient
+# RBF Network Implementation: 
+
 RBF networks are unique networks from standard MLP models. There are a handful of implementations. I wrote this implementation where each neuron is optimized by gradient descent. 
 
 With this implementation you are able to generate a set of RBF neurons with it's own central basis vector. You are also able to train subsets of neurons on your own choice of data. 
