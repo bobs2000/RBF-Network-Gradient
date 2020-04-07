@@ -1,9 +1,9 @@
-
+#A Modified RBF Network Implementation 
+-----
 
 ![RBF Implementation](/images/network.png)
 
 
-##A Modified RBF Network Implementation 
 
 
 RBF networks are unique networks from standard MLP models. There are a handful of implementations. I wrote this implementation where each neuron is optimized by gradient descent. 
