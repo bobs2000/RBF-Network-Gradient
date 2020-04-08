@@ -12,9 +12,15 @@ There are a handful of implementations of RBF. This is my attempt at implmenting
 
 The RBF-like network contains neurons that take a 1-D array of data and stores it as a central basis. During training weights that are applied to the prototype are adjusted by gradient descent as similar data is introduced to the network. The output of each neuron is 1-MSE(prototype,input), meaning that as the input is closer to the prototype the higher the activation is. 
 
-My implementation allows for gradient ascent training, which can be used when the neurons are presented with data that should NOT be incorporated into the neuron's prototype. 
+My implementation allows for gradient ascent training, which can be used when the neurons are presented with data that should NOT be incorporated into the neuron's prototype. For example, below is the prototype of a neuron that has been trained using gradient descent on MNIST 0, but gradient ascent on MNIST 4. 
+
+
+![alt text](/images/0 NOT 4.png)
+
 
 With this implementation you are able to generate a set of RBF neurons, and also generate additional neurons even after the first set of neurons have been trained. In this way, you are also able to train subsets of neurons on your own choice of data.
+
+
 
 See the Jupyter Notebook for implementation. 
 
