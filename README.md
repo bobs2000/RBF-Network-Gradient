@@ -3,6 +3,7 @@
 
 ![alt text](/images/network.png)
 
+
 ### A Modified RBF Network Implementation 
 
 -----
@@ -15,20 +16,20 @@ The RBF-like network contains neurons that take a 1-D array of data and stores i
 My implementation allows for gradient ascent training, which can be used when the neurons are presented with data that should NOT be incorporated into the neuron's prototype. For example, below is the prototype of a neuron that has been trained using gradient descent on MNIST 0, but gradient ascent on MNIST 4. 
 
 
-![alt text](/images/0 NOT 4.png)
+ ![alt text](/images/0NOT4.png)
 
 
 With this implementation you are able to generate a set of RBF neurons, and also generate additional neurons even after the first set of neurons have been trained. In this way, you are also able to train subsets of neurons on your own choice of data.
 
 
+### How to Use:
+------
 
-See the Jupyter Notebook for implementation. 
+<a href="https://github.com/pluu2/RBF-Network-Gradient/blob/master/Basic_Implementation.ipynb">Basic Implementation</a> - This notebook demonstrates how to create a RBF network using 10 neurons, and train the network on MNIST 0 and compare the network's activation against non MNIST 0 samples. 
 
 
-
-
-
-To do: 
+### To do:
+-----
 - [x] Write notebook to demonstrate basic implementation of RBF network.
 - [ ] Notebook to demonstrate training multiple sets of RBF neurons on multiple types of data
 - [ ] Notebook to demonstrate gradient ascent training. 
