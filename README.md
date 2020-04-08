@@ -11,7 +11,7 @@ RBF networks are unique networks that differ from standard MLP models. RBFs work
 
 There are a handful of implementations of RBF. This is my attempt at implmenting a unique RBF 'like' network. The optimization algorithm I chose is gradient descent. 
 
-The RBF-like network contains neurons that take a 1-D array of data and stores it as a central basis. During training weights that are applied to the prototype are adjusted by gradient descent as similar data is introduced to the network. The output of each neuron is 1-MSE(prototype,input), meaning that as the input is closer to the prototype the higher the activation is. 
+The RBF-like network contains neurons that take a 1-D array of data and stores it as a central basis or 'prototype'. During training weights that are applied to the prototype are adjusted by gradient descent as similar data is introduced to the network. The output of each neuron is 1-MSE(prototype,input), meaning that as the input is closer to the prototype the higher the activation is. 
 
 My implementation allows for gradient ascent training, which can be used when the neurons are presented with data that should NOT be incorporated into the neuron's prototype. For example, below is the prototype of a neuron that has been trained using gradient descent on MNIST 0, but gradient ascent on MNIST 4. 
 
