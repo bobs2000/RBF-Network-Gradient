@@ -26,10 +26,11 @@ With this implementation you are able to generate a set of RBF neurons, and also
 ------
 
 <a href="https://github.com/pluu2/RBF-Network-Gradient/blob/master/Basic_Implementation.ipynb">Basic Implementation</a> - This notebook demonstrates how to create a RBF network using 10 neurons, and train the network on MNIST 0 and compare the network's activation against non MNIST 0 samples. 
+<a href="https://github.com/pluu2/RBF-Network-Gradient/blob/master/RBF_Multiple_Neuron_Sets.ipynb">Training multiple sets of neurons on multiple classes of data</a> - This notebook demonstrates how to train 10 RBF neurons on MNIST 0, then add 10 new neurons and train those neurons on MNIST 4, then compare their activation on test data. 
 
 
 ### To do:
 -----
 - [x] Write notebook to demonstrate basic implementation of RBF network.
-- [ ] Notebook to demonstrate training multiple sets of RBF neurons on multiple types of data
-- [ ] Notebook to demonstrate gradient ascent training. 
+- [X] Notebook to demonstrate training multiple sets of RBF neurons on multiple types of data
+- [ ] Notebook to demonstrate gradient ascent training and why it can be useful.  
