@@ -29,6 +29,10 @@ With this implementation you are able to generate a set of RBF neurons, and also
 
 <a href="https://github.com/pluu2/RBF-Network-Gradient/blob/master/RBF_Multiple_Neuron_Sets.ipynb">Training multiple sets of neurons on multiple classes of data</a> - This notebook demonstrates how to train 10 RBF neurons on MNIST 0, then add 10 new neurons and train those neurons on MNIST 4, then compare their activation on test data. 
 
+### Future Designs: 
+-----
+- [ ] Improve selection of prototype into frames of data rather than lines of data. 
+- [ ] Implement a boosting mechanism to neurons with specific receptive fields to form a primative attentional mechanism. 
 
 ### To do:
 -----
